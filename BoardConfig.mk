@@ -148,17 +148,6 @@ TWRP_EVENT_LOGGING := false
 #TARGET_RECOVERY_DEVICE_MODULES += debuggerd
 #TW_RECOVERY_ADDITIONAL_RELINK_FILES += $(TARGET_OUT_EXECUTABLES)/debuggerd
 
-# OF build flags
-FOX_RECOVERY_INSTALL_PARTITION := "/dev/block/by-name/recovery"
-FOX_RECOVERY_SYSTEM_PARTITION := "/dev/block/by-name/system"
-FOX_RECOVERY_VENDOR_PARTITION := "/dev/block/by-name/vendor"
-FOX_RECOVERY_BOOT_PARTITION := "/dev/block/by-name/boot"
-FOX_USE_NANO_EDITOR := 1
-FOX_USE_BASH_SHELL := 1
-FOX_USE_TWRP_RECOVERY_IMAGE_BUILDER := 1
-OF_MAINTAINER := JayPDX
-FOX_REMOVE_AAPT := 1
-FOX_DELETE_INITD_ADDON := 1
 
 # TWRP specific build flags
 TW_THEME := portrait_hdpi
