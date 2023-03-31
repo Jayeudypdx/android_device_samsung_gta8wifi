@@ -150,7 +150,7 @@ TWRP_EVENT_LOGGING := false
 
 
 # TWRP specific build flags
-TW_THEME := landscape_hdpi
+TW_THEME := portrait_hdpi
 TW_BRIGHTNESS_PATH := "/sys/class/backlight/sprd_backlight/brightness"
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_EXTERNAL_STORAGE := true
