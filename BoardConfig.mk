@@ -150,11 +150,10 @@ TWRP_EVENT_LOGGING := false
 
 
 # TWRP specific build flags
-TW_THEME := portrait_hdpi
+TW_THEME := landscape_hdpi
 TW_BRIGHTNESS_PATH := "/sys/class/backlight/sprd_backlight/brightness"
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_EXTERNAL_STORAGE := true
-TW_EXCLUDE_DEFAULT_USB_INIT := true
 TW_EXCLUDE_TWRPAPP := true
 TW_INCLUDE_NTFS_3G := true
 TW_USE_NEW_MINADBD := true
@@ -163,6 +162,5 @@ TW_HAS_DOWNLOAD_MODE := true
 TW_NO_REBOOT_BOOTLOADER := true
 TW_NO_LEGACY_PROPS := true
 TW_NO_BIND_SYSTEM := true
-TW_NO_SCREEN_BLANK := true
 TW_SCREEN_BLANK_ON_BOOT := true
 TW_DEVICE_VERSION := 1
