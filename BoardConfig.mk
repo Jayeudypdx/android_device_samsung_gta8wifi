@@ -124,8 +124,8 @@ TARGET_COPY_OUT_SYSTEM_EXT := system_ext
 TARGET_COPY_OUT_VENDOR := vendor
 
 # Encryption
-TW_INCLUDE_CRYPTO := false
-TW_INCLUDE_CRYPTO_FBE := false
+TW_INCLUDE_CRYPTO := true
+TW_INCLUDE_CRYPTO_FBE := true
 TW_INCLUDE_FBE_METADATA_DECRYPT := false
 BOARD_USES_METADATA_PARTITION := true
 TARGET_KEYMASTER_VARIANT := samsung
@@ -150,7 +150,7 @@ TWRP_EVENT_LOGGING := false
 
 
 # TWRP specific build flags
-TW_THEME := landscape_hdpi
+TW_THEME := portrait_hdpi
 TW_BRIGHTNESS_PATH := "/sys/class/backlight/sprd_backlight/brightness"
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_EXTERNAL_STORAGE := true
